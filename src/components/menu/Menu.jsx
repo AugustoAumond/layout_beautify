@@ -59,4 +59,18 @@ height: 145px;
             font-size: 10px;
         }
     }
+
+    @media (max-width: 900px){
+        height: 75px;
+
+        img {
+            max-width: 45px;
+        }
+
+        #button {
+            width: 85px;
+            height: 20px;
+            font-size: 8px;
+        }
+    }
 `

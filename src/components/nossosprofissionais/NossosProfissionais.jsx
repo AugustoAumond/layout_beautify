@@ -46,4 +46,14 @@ const DivProfissionais = styled.div`
             color: #E29579;
             margin-top: -20px;
         }
+
+    @media (max-width: 550px){
+        h3 {
+            font-size: 20px;
+        }
+
+        h2{
+            font-size: 28px;
+        }
+    }
 `

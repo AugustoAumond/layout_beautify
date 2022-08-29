@@ -9,8 +9,6 @@ function Baner(){
 
             <div id="absolute">
                 <section>
-                    <h3>SEUS CABELOS MERECEM UM TRATAMENTO PERFEITO E MAJESTOSO</h3>
-
                     <Button text={'Saiba Mais'}/>
                 </section>
             </div>  
@@ -50,16 +48,9 @@ const ContainerBaner = styled.div`
             margin: 0 auto;
         }
 
-            h3 {
-                position: relative;
-                color: white;
-                font-weight: 600;
-                font-size: 27px;
-                line-height: 34px;
-            }
-
             #button {
                 position: relative;
+                top: 30px;
                 width: 182px;
                 transition: 0.5s;
             }
@@ -67,15 +58,21 @@ const ContainerBaner = styled.div`
             #button:hover {
                 background: #84C5BF;
             }
-    @media (max-width: 900px){
-        h3 {
-            font-size: 16px;
-        }
 
+    @media (max-width: 900px){
         #button {
             width: 85px;
             font-size: 10px;
             height: 25px;
+        }
+    }
+
+    @media (max-width: 550px){
+        #button{
+            top: 15px;
+            width: 65px;
+            font-size: 8px;
+            height: 20px;
         }
     }
 `

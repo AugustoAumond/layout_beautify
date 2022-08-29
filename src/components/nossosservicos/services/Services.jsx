@@ -81,5 +81,17 @@ const DivServices = styled.div`
 
                 #button:hover {
                     background: #84C5BF;
-                }
+                } 
+                
+        @media (max-width: 550px){
+            p {
+                font-size: 14px;
+            }
+
+            #button {
+                height: 20px;
+                width: 113px;
+                font-size: 14px;
+            }
+        }
 `

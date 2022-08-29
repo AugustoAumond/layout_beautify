@@ -11,6 +11,9 @@ function Button(props){
 export default Button;
 
 const ButtonStyle = styled.button`
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     background: #0D2239;
     border: white;

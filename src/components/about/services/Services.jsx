@@ -34,6 +34,7 @@ const DivServices = styled.div`
 
     const Flex = styled.div`
         display: flex;
+        margin: 20px;
 
         img {
             width: 77px;
@@ -42,7 +43,20 @@ const DivServices = styled.div`
 
         p {
             width: 231px;
-            height: 154px;
             margin-top: 0px;
+            height: 100%;
         }
+
+    @media (max-width: 550px){
+        margin-top: 0px;
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
     `

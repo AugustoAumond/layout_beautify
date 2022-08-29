@@ -55,4 +55,14 @@ const UlItems = styled.ul`
         }
     }
 
+    @media (max-width: 900px){
+        li {
+            font-size: 10px;
+        }
+
+        li: hover {
+            font-size: 14px;
+        }
+    }
+
 `

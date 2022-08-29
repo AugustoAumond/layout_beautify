@@ -19,7 +19,7 @@ export default NossosServicos;
 
 const DivNossos = styled.div`
     position: relative;
-    top: 30px;
+    top: 75px;
     max-width: 1420px;
     margin: 0 auto;
 
@@ -44,4 +44,14 @@ const DivNossos = styled.div`
             font-size: 32px;
             line-height: 39px;
         }
+
+    @media (max-width: 550px){
+        h1 {
+            font-size: 24px;
+        }
+
+        h2{
+            font-size: 20px;
+        }
+    }
 `

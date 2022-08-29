@@ -94,4 +94,18 @@ const SectionAbout = styled.div`
                 font-size: 20px;
                 line-height: 24px;
             }
-        `
+
+        @media (max-width: 550px){
+            h1 {
+                font-size: 20px;
+            }
+
+            h2{
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+`
